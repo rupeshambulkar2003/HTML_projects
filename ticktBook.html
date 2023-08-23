@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>railwayTicketBooking</title>
+    <link rel="stylesheet" href="RTB.css">
+</head>
+<body>
+    <!--background block-------------------------------------------->
+    <div class="backgroundBlock">
+        <!--innerblock with padding----------------------------->
+            <div id="innerBlock">
+                <div class="verticalBlock">
+                    <h3>Train's Details:</h3>
+                </div>
+                <!----ROw block-------------------------------------->
+                <div class="verticalBlock">
+                    <!---division 1 REservation quota-->
+                    <div class="nameBlock">
+                        <p>Reservation Quota:</p>
+                        <select>
+                            <option>select</option>
+                            <option value="firstClass">First Class</option>
+                            <option value="secondClass">Second Class</option>
+                            <option value="general">General</optipn>
+                        </select>
+                    </div>
+                    <!--division 2 train number------------------------------->
+                    <div class="nameBlock">
+                        <p>Train Number:</p>
+                        <input type="text" placeholder="Enter">
+                    </div>
+                </div>
+                <!--row bolck 2----------------------------------------------------------->
+                <div class="verticalBlock">
+                     <!--Journey source-------------------------------------------------->
+                    <div class="nameBlock"> 
+                        <p>Journey From:</p>
+                        <input type="text" placeholder="From">
+                    </div>
+                    <!--journey destination=----------------------------------------------->
+                    <div class="nameBlock">
+                        <p>Journey to:</p>
+                        <input type="text" placeholder="To">
+                    </div>
+                </div>
+                <!--type of ticket------------------------------------------------------>
+                <div class="verticalBlock">
+                    <div class="nameBlock"><p>Ticket Type:</p></div>
+                    <div class="nameBlock">
+                        <input type="radio" name="tickTyp" id="oneway">
+                        <label for="oneway">One Way</label>
+                        <input type="radio" name="tickTyp" id="return">
+                        <label for="return">Return</label>
+                    </div>
+                </div>
+                <!--departure date------------------------------------------------------>
+                <div class="verticalBlock">
+                    <div class="nameBlock">
+                        <p>Departure Date:</p>
+                    </div>
+                    <div class="nameBlock">
+                        <input type="date" placeholder="Enter Date ">
+                    </div>
+                </div>
+                <!--nummber of tickeats---------------------------------------------------->
+                <div class="verticalBlock">
+                    <div class="nameBlock">
+                        <P>Number of Tickets:</P>
+                    </div>
+                    <div class="nameBlock">
+                        <input type="text" placeholder="No. of Tickets" maxlength="2">
+                    </div>
+                </div>
+                <div class="verticalBlock">------------------------------------------------------------------------------------------------</div>
+                <div class="verticalBlock">
+                    <h3>Passenger's Details:</h3>
+                </div>
+                <div class="verticalBlock">
+                    <div class="nameBlock">
+                        <p>Passenger's Name:</p>
+                        <input type="text" placeholder="Full Name">
+                    </div>
+                    <div class="nameBlock">
+                        <p>Age:</p>
+                        <input type="text" placeholder="Ente your Age" maxlength="2">
+                    </div>
+                </div>
+                <div class="verticalBlock">
+                    <div class="nameBlock">
+                        <p>Phone Number:</p>
+                        <input type="text" maxlength="10" placeholder="00000 00000">
+                    </div>
+                    <div class="nameBlock">
+                        <p>Email:</p>
+                        <input type="email" placeholder="xyz@gmail.com">
+                    </div>
+                </div>
+                <div class="verticalBlock">
+                    <button>Check Availability</button>
+                </div>
+            </div>
+
+    </div>
+</body>
+</html>

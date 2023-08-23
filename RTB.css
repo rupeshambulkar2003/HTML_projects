@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('bckgrnd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 100px 20px 100px 100px;
+}
+.backgroundBlock{
+    height: 650px;
+    width: 500px;
+    background-color: rgba(237, 166, 166, 0.7);
+    border-radius: 20px;
+    border: 2px solid white;
+    display: inline-block; 
+
+}
+
+#innerBlock{
+    height: 600px;
+    width: 450px;
+    display: inline-block;
+    padding: 40px 40px 40px 20px;
+    margin: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.verticalBlock{
+    margin: 10px;
+}
+.nameBlock{
+    display: inline-block;
+    width: 200px;
+    margin: 5px 5px 5px 5px;
+
+}
+
+button{
+    border: 2px solid;
+    border-color: aliceblue;
+    border-radius: 5px;
+    height: 40px;
+    width: 170px;
+    background-color: rgb(230, 38, 38);
+    text-align: center;
+    margin: 40px 100px 40px 100px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    color: rgb(191, 195, 198);
+    cursor: pointer;
+}
+
+button:hover{
+    color: black;
+}
