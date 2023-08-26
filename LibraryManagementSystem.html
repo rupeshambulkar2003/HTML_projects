@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="libManSys.css">
+<title>Library Management System</title>
+</head>
+<body>
+  <div class="headline">
+    <img src="D:\html\pngs\bcklmg.jpg" alt="Library Management System">
+  </div>
+<div class="navbar">
+  <img src="D:\html\pngs\pngwing.com.png" alt="Library">
+  <a href="#home">Home</a>
+  <a href="#books">Books</a>
+  <a href="#borrow">Borrow</a>
+  <div class="search-container">
+    <input type="text" placeholder="Search books...">
+    <button type="submit">Search</button>
+  </div>
+</div>
+
+<div class="content">
+  <table>
+    <tr>
+      <th>Book Title</th>
+      <th>Author</th>
+      <th>Genre</th>
+      <th>Availability</th>
+    </tr>
+    <tr>
+      <td>Book 1</td>
+      <td>Author 1</td>
+      <td>Fiction</td>
+      <td>Available</td>
+    </tr>
+    <tr>
+      <td>Book 2</td>
+      <td>Author 2</td>
+      <td>Non-Fiction</td>
+      <td>Unavailable</td>
+    </tr>
+    <!-- Add more rows for additional books -->
+  </table>
+</div>
+<div class="add-book-form">
+  <h2>Add a New Book</h2>
+  <form>
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title" required><br>
+
+    <label for="author">Author:</label>
+    <input type="text" id="author" name="author" required><br>
+
+    <label for="genre">Genre:</label>
+    <input type="text" id="genre" name="genre" required><br>
+
+    <label for="availability">Availability:</label>
+    <select id="availability" name="availability" required>
+      <option value="available">Available</option>
+      <option value="unavailable">Unavailable</option>
+    </select><br>
+
+    <button type="submit">Add Book</button>
+  </form>
+</div>
+
+</body>
+</html>
