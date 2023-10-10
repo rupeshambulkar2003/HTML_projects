@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+/* font families
+    font-family: 'Frank Ruhl Libre', serif;
+    font-family: 'Lato', sans-serif;
+*/
+header{
+    height: 100px;
+    width: 100%;
+    background: #fff;
+    z-index: 4;
+}
+header .pageMenuPreHeader{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 11px;
+    background: #fff;
+}
+header .pageMenuPreHeader span{
+    color: #999999;
+}
+header .pageMenuHeader{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuBar{
+    height: 100%;
+    width: 1380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .pageMenuHeader .menuBar ul{
+    height: 60px;
+    width: autos;
+    list-style-type: none;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .pageMenuHeader .menuBar #menu li{
+    font-size: 14px;
+    padding: 14px 28px;
+}
+.pageMenuHeader .logo{
+    width: 95px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.pageMenuHeader .logo img{
+    height: auto;
+    width: 96px;
+    transform: translateY(-20%);
+}
+.pageMenuHeader .menuBar #helpDesk{
+    height: 30px;
+    width: auto;  
+}
+.pageMenuHeader .menuBar #helpDesk li .fa-light{
+    width: 25px;
+}
+.pageMenuHeader .menuBar #helpDesk li a{
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 11px;
+    color: #7f7f7f;
+}
+
+/* Syw container  secton */
+#sywContainer{
+    width: 100%;
+    height: 615px;
+    background-image: url("./syw-compare.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sywContainer h1 {
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Frank Ruhl Libre', serif;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 150;
+}
+#sywContainer p{
+    text-align: center;
+    color: #333;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* Feature container Section */
+
+.featureBar{
+    width: 100%;
+    height: 90px;
+    background-color: #efefef;
+}
+.featureBar .featureNavBar{
+    height: 100%;
+    width: 100%;
+    background: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+.featureBar .featureNavBar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #608a8c;
+    background: #efefef;
+}
+.featureBar .featureNavBar ul li{
+    width: 300px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+
+} 
+.featureBar .featureNavBar ul li span{
+    padding-left: 5px;
+}
+
+/* Video Section */
+.videoSection{
+    height: 453px;
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.videoSection .videoContent {
+    height: 100%;
+    width: 87%;
+    display: flex;
+}
+.videoSection .videoContent .video{
+    height: 100%;
+    width: 805px;
+}
+.videoContent .outerContent{
+    height: 100%;
+    width: 516px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.videoContent .outerContent .content{
+    height: 165px;
+    width: 350px;
+    text-align: center;
+    color: #333333;
+    
+}
+.videoContent .outerContent .content h1{
+    margin: 0 35px;
+    font-weight: 100;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 24px;
+}
+.videoContent .outerContent .content p{
+    margin: 15px 0;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 4px;
+}
+
+/* Syw Product Tab */
+.sywProductTab{
+    height: auto;
+    width: 100%;
+    background: #f4f4f4;
+}
+.sywProductTab .span{
+    height: auto;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Frank Ruhl Libre', serif;
+    text-align: center;
+    padding: 60px 0 20px;
+}
+.sywProductTab .productTabs_tabs{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.productTabs_tabs .tab_content{
+    height: 230px;
+    width: 320px;
+    text-align: center;
+    padding-top: 20px;
+}
+.productTabs_tabs .tab_content img{
+    height: 80px;    
+}
+.productTabs_tabs .tab_content h5{
+    text-align: center;
+    padding: 30px 10px 0;
+}
+/* Grid section */
+.grid-container {
+    display: grid;
+    grid-template-columns: 412px 412px 412px;
+    grid-template-rows: 508px 508px;
+    grid-gap: 10px;
+    margin: 20px 123px 20px;
+}
+  
+.grid-item {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background: #f7f7f7;
+}
+.grid-item img{
+    width: 300px;
+    height: 250px;
+    padding: 35px 0px;
+}
+.grid-item .priceName{
+    height: auto;
+    width: auto;
+}
+.grid-item .priceName h3{ 
+    color: #333333;
+    padding-top: 20px;
+}
+.grid-item .priceName span{
+    color: #7f7f7f;
+}
+.grid-item .priceName .price{
+    color: #333333;
+    padding-bottom: 35px;
+}
+.grid-item .priceName button{
+    height: 36px;
+    width: 116px;
+    padding: 7px 14px;
+    color: #333;
+    border-radius: 8px;
+    background: #f7f7f7;
+    color: #333;
+    border: 1px solid #333;
+   
+}
+/* Desktop Quote section */
+.DesktopQuote{
+    height: 492px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 80px 107px 60px;
+    background: #829c98;
+    color: #fff;
+}
+.DesktopQuote h2{
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.DesktopQuote .brandName{
+    height: 132px;
+    width: 1120px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 2px solid white;
+}
+.DesktopQuote .brandName .logoOfBrand{
+    height: 100%;
+    width: 280px;
+    box-sizing: border-box;
+    padding: 40px 10px;
+    text-align: center;
+    opacity: 0.6;
+}
+.DesktopQuote .brandName .logoOfBrand:hover{
+    border-bottom: 4px solid white;
+    opacity: 1;
+}
+.DesktopQuote .brandName .logoOfBrand img{
+    height: 30px;
+}
+.lowerQuote{
+    height: 160px;
+    width: 100%;
+    transform: translateY(-100%);
+    text-align: center;
+}
